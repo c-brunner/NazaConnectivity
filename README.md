@@ -27,6 +27,10 @@ NazaSpektrum
 adds telemetry support for any Spektrum transmitter (like DX9).
 you only have to connect your board to the Spektrum TM-1000 and you get real time stats on your transmitter.
 
+F550 Dynamic Flight Data
+
+iOS application for connecting to the base station and displaying real time stats.
+you can also view your gpx files in this application.
 
 HardwareModules
 ---------------

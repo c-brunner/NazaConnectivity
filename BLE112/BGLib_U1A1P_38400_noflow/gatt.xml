@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+
+    <!-- 1800: org.bluetooth.service.generic_access -->
+    <service uuid="1800" id="generic_access">
+        <description>Generic Access</description>
+
+        <!-- 2A00: org.bluetooth.characteristic.gap.device_name -->
+        <characteristic uuid="2A00" id="c_device_name">
+            <description>Device Name</description>
+            <properties read="true" const="true" />
+            <value>DJI Naza Flight Data</value>
+        </characteristic>
+
+        <!-- 2A01: org.bluetooth.characteristic.gap.appearance -->
+        <characteristic uuid="2A01" id="c_appearance">
+            <description>Appearance</description>
+            <properties read="true" const="true" />
+            <!-- 128: Generic Computer, Generic category -->
+            <value type="hex">0080</value>
+        </characteristic>
+        
+    </service>
+
+    <!-- 180A: org.bluetooth.service.device_information -->
+    <service uuid="180A" id="device_information">
+        <description>Device Information</description>
+
+        <!-- 2A29: org.bluetooth.characteristic.manufacturer_name_string -->
+        <!-- (support for this characteristic is MANDATORY according to the profile spec) -->
+        <characteristic uuid="2A29" id="c_manufacturer_name">
+            <description>Manufacturer Name</description>
+            <properties read="true" const="true" />
+            <value>Christian Brunner</value>
+        </characteristic>
+
+        <!-- 2A24: org.bluetooth.characteristic.model_number_string -->
+        <characteristic uuid="2A24" id="c_model_number">
+            <description>Model Number</description>
+            <properties read="true" const="true" />
+            <value>SF-BGLIB</value>
+        </characteristic>
+
+    </service>
+
+    <!-- custom service for data transmission test -->
+    <service uuid="195AE58A-437A-489B-B0CD-AABBCCDD0000" id="dataTransceiver" advertise="true">
+        <description>Data Transceiver Service</description>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD0000" id="rxData">
+            <description>RX Data</description>
+            <properties write="true" />
+            <value variable_length="true" length="20"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD0001" id="txData">
+            <description>TX Data</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="true" length="20"></value>
+        </characteristic>
+
+    </service>
+
+	    <!-- custom service for data transmission test -->
+    <service uuid="195AE58A-437A-489B-B0CD-AABBCCDD1000" id="dataGps" advertise="true">
+        <description>DJI Naza System Status</description>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1000" id="latitude">
+            <description>Latitude</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1001" id="longitude">
+            <description>Longitude</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1002" id="latitudeHome">
+            <description>Latitude Home</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1003" id="longitudeHome">
+            <description>Longitude Home</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+       <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1004" id="altitudeHome">
+            <description>Altitude Home</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+       <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1005" id="altitudeBarometer">
+            <description>Altitude Barometer</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1006" id="altitudeGps">
+            <description>Altitude Gps</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="4"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1007" id="speed">
+            <description>Speed</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1008" id="climbSpeedBarometer">
+            <description>Climb Speed Barometer</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1009" id="climbSpeedGps">
+            <description>Climb Speed Gps</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1010" id="satellitesVisible">
+            <description>Satellites Visible</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="1"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1011" id="fixType">
+            <description>Fix Type</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="1"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1012" id="course">
+            <description>Course</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1013" id="heading">
+            <description>Heading</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1014" id="headingNc">
+            <description>Heading NC</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1015" id="hdop">
+            <description>HDOP</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1016" id="vdop">
+            <description>VDOP</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1017" id="pitch">
+            <description>Pitch</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="1"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1018" id="roll">
+            <description>Roll</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="1"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1019" id="voltageBattery">
+            <description>Voltage Battery</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1020" id="currentBattery">
+            <description>Current Battery</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1021" id="consumedBattery">
+            <description>Consumed Battery</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="2"></value>
+        </characteristic>
+
+		<characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD1022" id="flightMode">
+            <description>Flight Mode</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="1"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD2023" id="rcInput">
+            <description>RC Input</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="14"></value>
+        </characteristic>
+
+        <characteristic uuid="5FC569A0-74A9-4FA4-B8B7-AABBCCDD2024" id="motorOutput">
+            <description>Motor Output</description>
+            <properties read="true" notify="true" indicate="true" />
+            <value variable_length="false" length="16"></value>
+        </characteristic>
+
+	</service>
+
+</configuration>

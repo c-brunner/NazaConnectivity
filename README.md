@@ -32,8 +32,8 @@ F550 Dynamic Flight Data
 iOS application for connecting to the base station and displaying real time stats.
 you can also view your gpx files in this application.
 
-HardwareModules
----------------
+HardwareModules needed
+----------------------
 
 Arduino - Teensy 3.1
 
@@ -53,8 +53,8 @@ Wireless Module - 3DR Radio Set (https://store.3drobotics.com/products/3dr-radio
 Current Sensor - APM Power Module (https://store.3drobotics.com/products/apm-power-module-with-xt60-connectors)
 
 
-External Libraries
-------------------
+External Libraries needed
+-------------------------
 
 Many thanks for your effort goes to the developers of the following libraries that made my life much easier:
 

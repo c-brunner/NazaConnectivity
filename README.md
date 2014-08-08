@@ -2,7 +2,7 @@ NazaConnectivity
 ================
 
 SoftwareModules
-===============
+---------------
 
 NazaBLE
 adds support for Bluetooth Low Energy (BlueGiga BLE112) in order to receive real time stats of NAZA-M V2 chip on any iOS device.
@@ -22,26 +22,45 @@ NazaSpektrum
 adds telemetry support for any Spektrum transmitter (like DX9).
 you only have to connect your board to the Spektrum TM-1000 and you get real time stats on your transmitter.
 
+
 HardwareModules
-===============
+---------------
+
 Arduino - Teensy 3.1
+
 CAN Bus - Breakout Board Pawelsky (http://www.rcgroups.com/forums/showthread.php?t=2071772)
+
 MicroSD - Breakout Board Pawelsky (http://www.rcgroups.com/forums/showthread.php?t=2071772)
+
 Bluetooth Low Energy - BLE112 (https://www.bluegiga.com/evaluation_BLE112)
-Bluetooth Low Energy - Breakout Board (http://www.inmojo.com/store/jeff-rowberg/item/ble112-bluetooth-low-energy-breakout)
+
+Bluetooth Low Energy - Breakout Board
+(http://www.inmojo.com/store/jeff-rowberg/item/ble112-bluetooth-low-energy-breakout)
+
 OLED Display - Grove OLED Display (https://github.com/Seeed-Studio/Grove_OLED_Display_128X64)
+
 Wireless Module - 3DR Radio Set (https://store.3drobotics.com/products/3dr-radio)
+
 Current Sensor - APM Power Module (https://store.3drobotics.com/products/apm-power-module-with-xt60-connectors)
 
 
+External Libraries
+------------------
 
 Many thanks for your effort goes to the developers of the following libraries that made my life much easier:
 
 Pawelsky - http://www.rcgroups.com/forums/showthread.php?t=2071772
+
 Pedro Villanueva - https://github.com/pedvide/ADC
+
 Jeff Rowberg - https://github.com/jrowberg/bglib
+
 teachop - https://github.com/teachop/FlexCAN_Library
+
 Brian "nox771" - http://forum.pjrc.com/threads/21680-New-I2C-library-for-Teensy3
+
 The guys from Seed Studio - https://github.com/Seeed-Studio/Grove_OLED_Display_128X64
+
 The guys from Arduino - http://arduino.cc/de/Reference/SD, http://arduino.cc/de/Reference/EEPROM
+
 The guys from ETH Zurich - https://pixhawk.ethz.ch/mavlink/

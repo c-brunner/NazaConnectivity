@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "77-ekg.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "77-ekg-1.png"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

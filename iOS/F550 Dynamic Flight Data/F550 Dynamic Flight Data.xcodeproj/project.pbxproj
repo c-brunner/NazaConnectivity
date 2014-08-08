@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0AE0231954CA49003CBB89 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0AE0221954CA49003CBB89 /* MapKit.framework */; };
+		2F833CEE1956B3BF003D67DA /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F833CED1956B3BF003D67DA /* DataViewController.m */; };
+		2FF71BDF198504130098E07C /* CrumbPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF71BDC198504130098E07C /* CrumbPath.m */; };
+		2FF71BE0198504130098E07C /* CrumbPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF71BDE198504130098E07C /* CrumbPathView.m */; };
+		2FF71BE31985236E0098E07C /* SimulationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FF71BE21985236E0098E07C /* SimulationViewController.m */; };
+		2FFCE53A19548AF10007BC43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE53919548AF10007BC43 /* Foundation.framework */; };
+		2FFCE53C19548AF10007BC43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE53B19548AF10007BC43 /* CoreGraphics.framework */; };
+		2FFCE53E19548AF10007BC43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE53D19548AF10007BC43 /* UIKit.framework */; };
+		2FFCE54419548AF10007BC43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCE54219548AF10007BC43 /* InfoPlist.strings */; };
+		2FFCE54619548AF10007BC43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCE54519548AF10007BC43 /* main.m */; };
+		2FFCE54A19548AF10007BC43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCE54919548AF10007BC43 /* AppDelegate.m */; };
+		2FFCE54D19548AF10007BC43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCE54B19548AF10007BC43 /* Main.storyboard */; };
+		2FFCE55619548AF10007BC43 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCE55519548AF10007BC43 /* MapViewController.m */; };
+		2FFCE55819548AF10007BC43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCE55719548AF10007BC43 /* Images.xcassets */; };
+		2FFCE55F19548AF10007BC43 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE55E19548AF10007BC43 /* XCTest.framework */; };
+		2FFCE56019548AF10007BC43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE53919548AF10007BC43 /* Foundation.framework */; };
+		2FFCE56119548AF10007BC43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE53D19548AF10007BC43 /* UIKit.framework */; };
+		2FFCE56919548AF10007BC43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCE56719548AF10007BC43 /* InfoPlist.strings */; };
+		2FFCE56B19548AF10007BC43 /* F550_Dynamic_Flight_DataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCE56A19548AF10007BC43 /* F550_Dynamic_Flight_DataTests.m */; };
+		2FFCE57619548B250007BC43 /* F550DynamicFlightData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FFCE57519548B250007BC43 /* F550DynamicFlightData.m */; };
+		2FFCE57819548B710007BC43 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFCE57719548B710007BC43 /* CoreBluetooth.framework */; };
+		C577F93C26304867A45B85B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 746DCE6B83FF43C095E71A80 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FFCE56219548AF10007BC43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FFCE52E19548AF10007BC43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFCE53519548AF10007BC43;
+			remoteInfo = "F550 Dynamic Flight Data";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0AE0221954CA49003CBB89 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		2F833CEC1956B3BF003D67DA /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		2F833CED1956B3BF003D67DA /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		2FBA498C19853322002125DB /* libPods-iOS-GPX-Framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-iOS-GPX-Framework.a"; path = "Pods/build/Debug-iphoneos/libPods-iOS-GPX-Framework.a"; sourceTree = "<group>"; };
+		2FF71BDB198504130098E07C /* CrumbPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbPath.h; sourceTree = "<group>"; };
+		2FF71BDC198504130098E07C /* CrumbPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbPath.m; sourceTree = "<group>"; };
+		2FF71BDD198504130098E07C /* CrumbPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrumbPathView.h; sourceTree = "<group>"; };
+		2FF71BDE198504130098E07C /* CrumbPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrumbPathView.m; sourceTree = "<group>"; };
+		2FF71BE11985236E0098E07C /* SimulationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationViewController.h; sourceTree = "<group>"; };
+		2FF71BE21985236E0098E07C /* SimulationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimulationViewController.m; sourceTree = "<group>"; };
+		2FFCE53619548AF10007BC43 /* F550 Dynamic Flight Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F550 Dynamic Flight Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFCE53919548AF10007BC43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2FFCE53B19548AF10007BC43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2FFCE53D19548AF10007BC43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2FFCE54119548AF10007BC43 /* F550 Dynamic Flight Data-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "F550 Dynamic Flight Data-Info.plist"; sourceTree = "<group>"; };
+		2FFCE54319548AF10007BC43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FFCE54519548AF10007BC43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FFCE54719548AF10007BC43 /* F550 Dynamic Flight Data-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "F550 Dynamic Flight Data-Prefix.pch"; sourceTree = "<group>"; };
+		2FFCE54819548AF10007BC43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FFCE54919548AF10007BC43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FFCE54C19548AF10007BC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FFCE55419548AF10007BC43 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		2FFCE55519548AF10007BC43 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		2FFCE55719548AF10007BC43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2FFCE55D19548AF10007BC43 /* F550 Dynamic Flight DataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F550 Dynamic Flight DataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FFCE55E19548AF10007BC43 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2FFCE56619548AF10007BC43 /* F550 Dynamic Flight DataTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "F550 Dynamic Flight DataTests-Info.plist"; sourceTree = "<group>"; };
+		2FFCE56819548AF10007BC43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2FFCE56A19548AF10007BC43 /* F550_Dynamic_Flight_DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = F550_Dynamic_Flight_DataTests.m; path = "F550 Dynamic Flight DataTests/F550_Dynamic_Flight_DataTests.m"; sourceTree = SOURCE_ROOT; };
+		2FFCE57419548B250007BC43 /* F550DynamicFlightData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F550DynamicFlightData.h; sourceTree = "<group>"; };
+		2FFCE57519548B250007BC43 /* F550DynamicFlightData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F550DynamicFlightData.m; sourceTree = "<group>"; };
+		2FFCE57719548B710007BC43 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		746DCE6B83FF43C095E71A80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC54BD04A55426C812E1FB6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FFCE53319548AF10007BC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE53C19548AF10007BC43 /* CoreGraphics.framework in Frameworks */,
+				2FFCE53E19548AF10007BC43 /* UIKit.framework in Frameworks */,
+				2F0AE0231954CA49003CBB89 /* MapKit.framework in Frameworks */,
+				2FFCE57819548B710007BC43 /* CoreBluetooth.framework in Frameworks */,
+				2FFCE53A19548AF10007BC43 /* Foundation.framework in Frameworks */,
+				C577F93C26304867A45B85B8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFCE55A19548AF10007BC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE55F19548AF10007BC43 /* XCTest.framework in Frameworks */,
+				2FFCE56119548AF10007BC43 /* UIKit.framework in Frameworks */,
+				2FFCE56019548AF10007BC43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FFCE52D19548AF10007BC43 = {
+			isa = PBXGroup;
+			children = (
+				2FFCE53F19548AF10007BC43 /* F550 Dynamic Flight Data */,
+				2FFCE56419548AF10007BC43 /* F550 Dynamic Flight DataTests */,
+				2FFCE53819548AF10007BC43 /* Frameworks */,
+				2FFCE53719548AF10007BC43 /* Products */,
+				8BC54BD04A55426C812E1FB6 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2FFCE53719548AF10007BC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FFCE53619548AF10007BC43 /* F550 Dynamic Flight Data.app */,
+				2FFCE55D19548AF10007BC43 /* F550 Dynamic Flight DataTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FFCE53819548AF10007BC43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FBA498C19853322002125DB /* libPods-iOS-GPX-Framework.a */,
+				2F0AE0221954CA49003CBB89 /* MapKit.framework */,
+				2FFCE57719548B710007BC43 /* CoreBluetooth.framework */,
+				2FFCE53919548AF10007BC43 /* Foundation.framework */,
+				2FFCE53B19548AF10007BC43 /* CoreGraphics.framework */,
+				2FFCE53D19548AF10007BC43 /* UIKit.framework */,
+				2FFCE55E19548AF10007BC43 /* XCTest.framework */,
+				746DCE6B83FF43C095E71A80 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FFCE53F19548AF10007BC43 /* F550 Dynamic Flight Data */ = {
+			isa = PBXGroup;
+			children = (
+				2FFCE54019548AF10007BC43 /* Supporting Files */,
+				2FFCE54819548AF10007BC43 /* AppDelegate.h */,
+				2FFCE54919548AF10007BC43 /* AppDelegate.m */,
+				2FF71BDB198504130098E07C /* CrumbPath.h */,
+				2FF71BDC198504130098E07C /* CrumbPath.m */,
+				2FF71BDD198504130098E07C /* CrumbPathView.h */,
+				2FF71BDE198504130098E07C /* CrumbPathView.m */,
+				2F833CEC1956B3BF003D67DA /* DataViewController.h */,
+				2F833CED1956B3BF003D67DA /* DataViewController.m */,
+				2FFCE57419548B250007BC43 /* F550DynamicFlightData.h */,
+				2FFCE57519548B250007BC43 /* F550DynamicFlightData.m */,
+				2FFCE54B19548AF10007BC43 /* Main.storyboard */,
+				2FFCE55419548AF10007BC43 /* MapViewController.h */,
+				2FFCE55519548AF10007BC43 /* MapViewController.m */,
+				2FF71BE11985236E0098E07C /* SimulationViewController.h */,
+				2FF71BE21985236E0098E07C /* SimulationViewController.m */,
+				2FFCE55719548AF10007BC43 /* Images.xcassets */,
+			);
+			path = "F550 Dynamic Flight Data";
+			sourceTree = "<group>";
+		};
+		2FFCE54019548AF10007BC43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FFCE54119548AF10007BC43 /* F550 Dynamic Flight Data-Info.plist */,
+				2FFCE54219548AF10007BC43 /* InfoPlist.strings */,
+				2FFCE54519548AF10007BC43 /* main.m */,
+				2FFCE54719548AF10007BC43 /* F550 Dynamic Flight Data-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FFCE56419548AF10007BC43 /* F550 Dynamic Flight DataTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FFCE56A19548AF10007BC43 /* F550_Dynamic_Flight_DataTests.m */,
+				2FFCE56519548AF10007BC43 /* Supporting Files */,
+			);
+			path = "F550 Dynamic Flight DataTests";
+			sourceTree = "<group>";
+		};
+		2FFCE56519548AF10007BC43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FFCE56619548AF10007BC43 /* F550 Dynamic Flight DataTests-Info.plist */,
+				2FFCE56719548AF10007BC43 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FFCE53519548AF10007BC43 /* F550 Dynamic Flight Data */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFCE56E19548AF10007BC43 /* Build configuration list for PBXNativeTarget "F550 Dynamic Flight Data" */;
+			buildPhases = (
+				777E5A8D51BE4081AFE991B7 /* Check Pods Manifest.lock */,
+				2FFCE53219548AF10007BC43 /* Sources */,
+				2FFCE53319548AF10007BC43 /* Frameworks */,
+				2FFCE53419548AF10007BC43 /* Resources */,
+				A23D57D0B8B4409183BF02E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "F550 Dynamic Flight Data";
+			productName = "F550 Dynamic Flight Data";
+			productReference = 2FFCE53619548AF10007BC43 /* F550 Dynamic Flight Data.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FFCE55C19548AF10007BC43 /* F550 Dynamic Flight DataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FFCE57119548AF10007BC43 /* Build configuration list for PBXNativeTarget "F550 Dynamic Flight DataTests" */;
+			buildPhases = (
+				2FFCE55919548AF10007BC43 /* Sources */,
+				2FFCE55A19548AF10007BC43 /* Frameworks */,
+				2FFCE55B19548AF10007BC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FFCE56319548AF10007BC43 /* PBXTargetDependency */,
+			);
+			name = "F550 Dynamic Flight DataTests";
+			productName = "F550 Dynamic Flight DataTests";
+			productReference = 2FFCE55D19548AF10007BC43 /* F550 Dynamic Flight DataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FFCE52E19548AF10007BC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Christian Brunner";
+				TargetAttributes = {
+					2FFCE55C19548AF10007BC43 = {
+						TestTargetID = 2FFCE53519548AF10007BC43;
+					};
+				};
+			};
+			buildConfigurationList = 2FFCE53119548AF10007BC43 /* Build configuration list for PBXProject "F550 Dynamic Flight Data" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FFCE52D19548AF10007BC43;
+			productRefGroup = 2FFCE53719548AF10007BC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FFCE53519548AF10007BC43 /* F550 Dynamic Flight Data */,
+				2FFCE55C19548AF10007BC43 /* F550 Dynamic Flight DataTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FFCE53419548AF10007BC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE55819548AF10007BC43 /* Images.xcassets in Resources */,
+				2FFCE54D19548AF10007BC43 /* Main.storyboard in Resources */,
+				2FFCE54419548AF10007BC43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFCE55B19548AF10007BC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE56919548AF10007BC43 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		777E5A8D51BE4081AFE991B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A23D57D0B8B4409183BF02E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FFCE53219548AF10007BC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE55619548AF10007BC43 /* MapViewController.m in Sources */,
+				2FF71BE31985236E0098E07C /* SimulationViewController.m in Sources */,
+				2FFCE57619548B250007BC43 /* F550DynamicFlightData.m in Sources */,
+				2FFCE54A19548AF10007BC43 /* AppDelegate.m in Sources */,
+				2FF71BE0198504130098E07C /* CrumbPathView.m in Sources */,
+				2F833CEE1956B3BF003D67DA /* DataViewController.m in Sources */,
+				2FF71BDF198504130098E07C /* CrumbPath.m in Sources */,
+				2FFCE54619548AF10007BC43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FFCE55919548AF10007BC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFCE56B19548AF10007BC43 /* F550_Dynamic_Flight_DataTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FFCE56319548AF10007BC43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FFCE53519548AF10007BC43 /* F550 Dynamic Flight Data */;
+			targetProxy = 2FFCE56219548AF10007BC43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FFCE54219548AF10007BC43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFCE54319548AF10007BC43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2FFCE54B19548AF10007BC43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFCE54C19548AF10007BC43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FFCE56719548AF10007BC43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FFCE56819548AF10007BC43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FFCE56C19548AF10007BC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FFCE56D19548AF10007BC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FFCE56F19548AF10007BC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC54BD04A55426C812E1FB6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Prefix.pch";
+				INFOPLIST_FILE = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2FFCE57019548AF10007BC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC54BD04A55426C812E1FB6 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Prefix.pch";
+				INFOPLIST_FILE = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2FFCE57219548AF10007BC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/F550 Dynamic Flight Data.app/F550 Dynamic Flight Data";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "F550 Dynamic Flight DataTests/F550 Dynamic Flight DataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2FFCE57319548AF10007BC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/F550 Dynamic Flight Data.app/F550 Dynamic Flight Data";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F550 Dynamic Flight Data/F550 Dynamic Flight Data-Prefix.pch";
+				INFOPLIST_FILE = "F550 Dynamic Flight DataTests/F550 Dynamic Flight DataTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FFCE53119548AF10007BC43 /* Build configuration list for PBXProject "F550 Dynamic Flight Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFCE56C19548AF10007BC43 /* Debug */,
+				2FFCE56D19548AF10007BC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFCE56E19548AF10007BC43 /* Build configuration list for PBXNativeTarget "F550 Dynamic Flight Data" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFCE56F19548AF10007BC43 /* Debug */,
+				2FFCE57019548AF10007BC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FFCE57119548AF10007BC43 /* Build configuration list for PBXNativeTarget "F550 Dynamic Flight DataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FFCE57219548AF10007BC43 /* Debug */,
+				2FFCE57319548AF10007BC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FFCE52E19548AF10007BC43 /* Project object */;
+}

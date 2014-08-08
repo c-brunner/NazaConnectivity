@@ -1,0 +1,10 @@
+PODS:
+  - iOS-GPX-Framework (0.0.1)
+
+DEPENDENCIES:
+  - iOS-GPX-Framework
+
+SPEC CHECKSUMS:
+  iOS-GPX-Framework: 166b4e6629df5dfa6ad8d5bf66838485da70b92c
+
+COCOAPODS: 0.33.1

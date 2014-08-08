@@ -5,20 +5,25 @@ SoftwareModules
 ---------------
 
 NazaBLE
+
 adds support for Bluetooth Low Energy (BlueGiga BLE112) in order to receive real time stats of NAZA-M V2 chip on any iOS device.
 
 NazaGPX
+
 adds support for logging your flight in GPX format and view your flight in GoogleEarth.
 http://www.topografix.com/gpx.asp
 
 NazaMAVLink
+
 adds support for remote communication between your copter and a small base station via the Radio Wireless Telemetry Air 433Mhz module.
 As it's only using the serial connection you can use any wireless communication module.
 
 NazaOLED
+
 adds support for dislplaying real time stats on the wireless base station via a small OLED display.
 
 NazaSpektrum
+
 adds telemetry support for any Spektrum transmitter (like DX9).
 you only have to connect your board to the Spektrum TM-1000 and you get real time stats on your transmitter.
 

@@ -15,7 +15,7 @@ adds support for remote communication between your copter and a small base stati
 adds support for dislplaying real time stats on the wireless base station via a small [OLED display](https://github.com/Seeed-Studio/OLED_Display_128X64).
 
 #####NazaSpektrum
-adds telemetry support for any Spektrum transmitter (like [DX9](http://spektrumrc.com/Products/Default.aspx?ProdID=SPMR9900)). you only have to connect your board to the [Spektrum TM-1000](http://spektrumrc.com/Products/Default.aspx?ProdID=SPM9548) and you get real time stats on your transmitter.
+adds telemetry support for any Spektrum transmitter (like [Spektrum DX9](http://spektrumrc.com/Products/Default.aspx?ProdID=SPMR9900)). you only have to connect your board to the [Spektrum TM-1000](http://spektrumrc.com/Products/Default.aspx?ProdID=SPM9548) and you get real time stats on your transmitter.
 
 #####F550 Dynamic Flight Data
 iOS application for connecting to the base station and displaying real time stats.

@@ -53,6 +53,8 @@ teachop - [Arduino library for CAN on Teensy 3.1](https://github.com/teachop/Fle
 
 Brian "nox771" - [I2C library for Teensy3](http://forum.pjrc.com/threads/21680-New-I2C-library-for-Teensy3)
 
+Daniel Gilbert - [IntervalTimer](https://github.com/loglow/IntervalTimer)
+
 The guys from Seed Studio - [Seeed OLED Display 128*64 library](https://github.com/Seeed-Studio/Grove_OLED_Display_128X64)
 
 The guys from Arduino - [SD](http://arduino.cc/de/Reference/SD), [EEPROM](http://arduino.cc/de/Reference/EEPROM)
